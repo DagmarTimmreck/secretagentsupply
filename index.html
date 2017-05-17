@@ -10,18 +10,23 @@
 
 <body>
   <header>
-    <img src="./resources/images/logo.png" alt="logo" role="presentation" />
-    <span>Secret Agent Supply Inc.</span>
+    <div class="container">
+      <img src="./resources/images/logo.png" alt="logo" role="presentation" />
+      <span>Secret Agent Supply Inc.</span>
+    </div>
   </header>
   <main>
     <section class="banner">
-      <div class="new-arrival">
-        <h3>New Arrival</h3>
-        <h2>Sport Bikes and Motor Cycles</h2>
+      <div class="container">
+        <div class="highlight">
+          <h3>New Arrival</h3>
+          <h2>Sport Bikes and Motor Cycles</h2>
+        </div>
       </div>
     </section>
+
     <nav role="navigation">
-      <ul>
+      <ul class="container">
         <li><a href="#">Eyewear</a></li>
         <li><a href="#">Apparel</a></li>
         <li><a href="#">Vehicles</a></li>
@@ -30,33 +35,41 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
-    <section class="gallery">
+    <section class="gallery container">
       <figure>
-        <img src="./resources/images/pen.png" alt="pen" role="presentation" />
+        <div class="image-box">
+          <img src="./resources/images/pen.png" alt="pen" role="presentation" />
+        </div>
         <figcaption>Exploding Pen</figcaption>
       </figure>
       <figure>
-        <img src="./resources/images/watch.png" alt="watch" role="presentation" />
+        <div class="image-box">
+          <img src="./resources/images/watch.png" alt="watch" role="presentation" />
+        </div>
         <figcaption>Cellular Watch</figcaption>
       </figure>
       <figure>
-        <img src="./resources/images/glasses.png" alt="glasses" role="presentation" />
+        <div class="image-box">
+          <img src="./resources/images/glasses.png" alt="glasses" role="presentation" />
+        </div>
         <figcaption>Thermal Glasses</figcaption>
       </figure>
     </section>
-    <address>
-  <div class="address-detail">
-    <h5>Location</h5>
-    <p>-47.346436, 84.32354</p>
-  </div>
-  <div class="address-detail">
-    <h5>Hours</h5>
-    <p>0800 - 1800</p>
-  </div>
-</address>
+    <section class="gallery container">
+      <div class="detail">
+        <h5>Location</h5>
+        <p>-47.346436, 84.32354</p>
+      </div>
+      <div class="detail">
+        <h5>Hours</h5>
+        <p>0800 - 1800</p>
+      </div>
+      </address>
   </main>
   <footer>
-    <p>Copyright Secret Agent Supply Inc.</p>
+    <div class="container">
+      <p>Copyright Secret Agent Supply Inc.</p>
+    </div>
   </footer>
 </body>
 
