@@ -48,21 +48,12 @@ header span {
 
 .highlight {
   width: 20rem;
-  height: 9.5rem;
+  padding: 2rem 3rem;
   margin-top: 9rem;
   background-color: black;
   color: white;
   font-weight: bold;
   text-transform: uppercase;
-}
-
-h2,
-h3 {
-  padding-left: 3rem;
-}
-
-.highlight h3 {
-  margin-top: 2rem;
 }
 
 h2 {
@@ -107,7 +98,7 @@ figure {
 
 img {
   max-height: 9rem;
-  max-width: 100%;
+  max-width: 50%;
 }
 
 figcaption {
@@ -134,11 +125,10 @@ figcaption {
 
 footer {
   margin-top: 4rem;
-  height: 5rem;
   background-color: black;
 }
 
 footer p {
-  padding: 2rem 0;
+  padding: 5rem 0;
   color: white;
 }
