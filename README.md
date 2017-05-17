@@ -8,3 +8,7 @@ Places where I deviated from the values on the mock to get the visual outcome:
 Values not on the mock but important:
 - line-height 1.2
 - images max-width 50%
+
+Improvements for responsiveness:
+- don't drop items but change flex flow.
+- support for tiny screens (< 415px)
